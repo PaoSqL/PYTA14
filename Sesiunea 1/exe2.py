@@ -1,0 +1,45 @@
+print("Cerinta 1: o variabila")
+#1. În cadrul unui comentariu, explică cu cuvintele tale ce este o variabilă.
+print("variabila este un element definit intr-un mod individual ce detine o anumita valoare de tipul boolean, int, float sau string")
+# exemplu:
+a = 2
+
+print("Cerinta 2: 2. Declară și initializează câte o variabilă din fiecare din următoarele tipuri de variabilă: "
+      "string, "
+      "int, "
+      "float, "
+      "bool, "
+      "Observație: Valorile vor fi alese de tine după preferințe.")
+Autoturism = "Masina" # Sting
+print(f"{Autoturism} string")
+Cantitate = 1 # int
+print(f"int {Cantitate}")
+Pret = 2.4 # float
+print(f"float",Pret)
+este_Disponibila = False # boolean
+print(f"boolean {este_Disponibila}")
+print("Cerinta 3")
+
+# 3. Utilizează funcția type pentru a verifica dacă au tipul de date așteptat.
+print("Type String")
+print(type(Autoturism))
+print("Type Int")
+print(type(Cantitate))
+print("Type Float")
+print(type(Pret))
+print("Type boolean")
+print(type(este_Disponibila))
+
+# 4. Rotunjește ‘float’-ul folosind funcția round() și salvează această modificare în aceeași variabilă (suprascriere):
+# -	Verifică tipul acesteia.
+round(4.343345453, 3)  # rotunjeste nr la 3 zecimale
+
+
+# 5. Folosește print() și printează în consolă 4 propoziții folosind cele 4 variabile.
+# Rezolvă nepotrivirile de tip prin ce modalitate dorești.
+print(f' Eu am un {Autoturism} de {Cantitate} la pret {Pret}')
+# 6. Citește de la tastatură:
+# -	numele;
+# -	prenumele.
+#     Afișează: 'Numele complet are x caractere'.
+
